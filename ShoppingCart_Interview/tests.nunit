@@ -1,0 +1,11 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug"/>
+  <Config name="Debug">
+    <assembly path="bin\Debug\ShoppingCart_Interview.dll"/>
+    <assembly path="bin\Debug\ShoppingCart_Interview.dll"/>
+  </Config>
+  <Config name="Release">
+    <assembly path="bin\Release\ShoppingCart_Interview.dll"/>
+    <assembly path="bin\Release\ShoppingCart_Interview.dll"/>
+  </Config>
+</NUnitProject>

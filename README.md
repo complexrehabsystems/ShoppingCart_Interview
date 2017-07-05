@@ -1,4 +1,5 @@
-This project implements a simple shopping cart. 
+This project implements a simple shopping cart, and can be completed using the free community version of Visual Studio 2015 available here: 
+* [https://my.visualstudio.com/Downloads?pid=1881](https://my.visualstudio.com/Downloads?pid=1881) 
 
 Using this shopping cart, you should be able to:
 * add products to the cart 

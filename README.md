@@ -1,7 +1,6 @@
-This project implements a simple shopping cart, and can be completed using the free community version of Visual Studio 2015 available here: 
-* [https://my.visualstudio.com/Downloads?pid=1881](https://my.visualstudio.com/Downloads?pid=1881) 
+This project implements a simple shopping cart in C#, and can be completed using the free community version of Visual Studio 2015 available here: [https://my.visualstudio.com/Downloads?pid=1881](https://my.visualstudio.com/Downloads?pid=1881) 
 
-Using this shopping cart, you should be able to:
+Using an instance of the ShoppingCart class, you should be able to:
 * add products to the cart 
 * remove products from the cart
 * ask the cart if it is empty 

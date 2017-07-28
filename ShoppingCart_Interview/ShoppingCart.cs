@@ -5,7 +5,7 @@ namespace ShoppingCart_Interview
 {
     public class ShoppingCart
     {
-        // Adds the specified quantity of item 'product' to the cart
+        // add the specified quantity of item 'product' to the cart
         public void AddProduct(Product product, int quantity)
         {
             throw new NotImplementedException();

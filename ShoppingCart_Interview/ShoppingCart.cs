@@ -10,8 +10,8 @@ namespace ShoppingCart_Interview
             throw new NotImplementedException();
         }
 
-        // default quantity of -1 indicates that ALL of the item should be removed
-        public void RemoveProduct(Product product, int? quantity = -1)
+        // default quantity of -1 indicates that ALL items of type 'product' should be removed
+        public void RemoveProduct(Product product, int quantity = -1)
         {
             throw new NotImplementedException();
         }

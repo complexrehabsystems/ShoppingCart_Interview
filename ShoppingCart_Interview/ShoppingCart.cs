@@ -21,7 +21,7 @@ namespace ShoppingCart_Interview
 
 
         // Remove everything from the cart.
-        public void RemoveEverything(Product product)
+        public void RemoveEverything()
         {
             throw new NotImplementedException();
         }

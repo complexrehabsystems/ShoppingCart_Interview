@@ -1,7 +1,9 @@
+## Overview
 This project implements a simple shopping cart in C# 6.0, and can be completed 
 using the free community version of Visual Studio 2015 available here: 
 * [https://my.visualstudio.com/Downloads?pid=1881](https://my.visualstudio.com/Downloads?pid=1881) 
 
+## Details
 Using an instance of the ShoppingCart class, you should be able to:
 * add products to the cart
 * remove products from the cart
@@ -38,9 +40,9 @@ cart.IsEmpty(); // returns true;
 
 ```
 
-These operations are specified in a set of unit tests, and the project is complete when all unit tests are passing.
+All cart operations are specified in a set of unit tests, and the project is complete when all unit tests are passing.
 
-After implementing code to pass all of the provided tests, please:
+After implementing code to pass the provided tests, please:
 - A) Suggest unit tests that you think should be added.
 - B) Propose a way to add the generalized concept of a Discount to the ShoppingCart 
   - e.g. percentage off cart total, buy one get one free, etc

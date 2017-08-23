@@ -29,13 +29,13 @@ namespace ShoppingCart_Interview
         // Return the total $ value of the cart's content.
         public float Total()
         {
-            return 0;
+            throw new NotImplementedException();
         }
 
         // Return true if the cart is empty, false otherwise.
         public bool IsEmpty()
         {
-            return true;
+            throw new NotImplementedException();
         }
 
         // Return true if the cart contains any items of type "product", false otherwise.

@@ -5,40 +5,46 @@ namespace ShoppingCart_Interview
 {
     public class ShoppingCart
     {
-        // add the specified quantity of item 'product' to the cart
-        public void AddProduct(Product product, int quantity)
+        // Add the specified quantity of 'product' to the cart.
+        // If no quantity is specified, one 'product' should be added.
+        public void AddProduct(Product product, int quantity = 1)
         {
             throw new NotImplementedException();
         }
 
-        // remove the specified quantity of item 'product' from the cart
-        // default quantity of -1 indicates that ALL items of type 'product' should be removed
-        public void RemoveProduct(Product product, int quantity = -1)
+        // Remove the specified quantity of 'product' from the cart.
+        // If no quantity is specified, remove all 'product' from the cart.
+        public void RemoveProduct(Product product, int? quantity = null)
         {
             throw new NotImplementedException();
         }
 
-        // return the total $ value of items in the cart
+
+        // Remove everything from the cart.
+        public void RemoveEverything(Product product)
+        {
+            throw new NotImplementedException();
+        }
+
+        // Return the total $ value of the cart's content.
         public float Total()
         {
-            // dummy implementation to make first unit tests pass
             return 0;
         }
 
-        // return true if the cart is empty, false otherwise
+        // Return true if the cart is empty, false otherwise.
         public bool IsEmpty()
         {
-            // dummy implementation to make first unit tests pass
             return true;
         }
 
-        // return true if the cart contains any items of type "product", false otherwise
+        // Return true if the cart contains any items of type "product", false otherwise.
         public bool Contains(Product product)
         {
             throw new NotImplementedException();
         }
 
-        // returns the quantity of items of type 'product' contained in the cart
+        // Returns the quantity of 'product' contained in the cart
         public int Quantity(Product product)
         {
             throw new NotImplementedException();

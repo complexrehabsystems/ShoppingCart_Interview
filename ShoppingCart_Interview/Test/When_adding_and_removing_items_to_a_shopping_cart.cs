@@ -5,13 +5,11 @@ using NUnit.Framework;
 namespace ShoppingCart_Interview.Test
 {
     [TestFixture]
-    class When_adding_and_removing_items_in_a_shopping_cart
+    class When_adding_and_removing_items_to_a_shopping_cart
     {
         private ShoppingCart _cart;
         private List<Product> _testProducts;
 
-
-        // A set of test products is created once, and shared by all tests in this [TestFixture]
         [OneTimeSetUp]
         public void SetupFixture()
         {
@@ -23,7 +21,6 @@ namespace ShoppingCart_Interview.Test
             };
         }
 
-        // A new cart is created before every [Test]
         [SetUp]
         public void Setup()
         {
@@ -44,7 +41,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove this ignore attribute when you are ready to run this test.")]
         public void after_adding_one_product_A__the_cart_should_not_be_empty()
         {
             // Arrange
@@ -58,7 +54,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove this ignore attribute when you are ready to run this test.")]
         public void after_adding_one_product_A__the_cart_should_contain_product_A()
         {
             // Arrange
@@ -72,7 +67,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove this ignore attribute when you are ready to run this test.")]
         public void after_adding_two_product_A__the_cart_should_contain_two_product_A()
         {
             // Arrange
@@ -86,7 +80,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove this ignore attribute when you are ready to run this test.")]
         public void after_adding_one_product_A_and_then_two_product_A__the_cart_should_contain_three_product_A()
         {
             // Arrange
@@ -101,7 +94,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove this ignore attribute when you are ready to run this test.")]
         public void after_adding_and_removing_one_product_A__the_cart_should_NOT_contain_any_product_A()
         {
             // Arrange
@@ -116,7 +108,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove this ignore attribute when you are ready to run this test.")]
         public void after_adding_one_product_A__the_cart_total_should_be_correct()
         {
             // Arrange
@@ -131,7 +122,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove this ignore attribute when you are ready to run this test.")]
         public void after_adding_two_product_A__the_cart_total_should_be_correct()
         {
             // Arrange
@@ -146,7 +136,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove this ignore attribute when you are ready to run this test.")]
         public void after_adding_one_product_A_and_two_product_b__the_cart_total_should_be_correct()
         {
             // Arrange
@@ -162,7 +151,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove this ignore attribute when you are ready to run this test.")]
         public void after_adding_one_product_A_two_product_B_and_three_product_C__the_cart_total_should_be_correct()
         {
             // Arrange
@@ -181,7 +169,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove this ignore attribute when you are ready to run this test.")]
         public void calling_remove_product_with_no_quantity_will_remove_all_of_the_given_product_from_the_cart()
         {
             // Arrange

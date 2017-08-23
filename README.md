@@ -5,6 +5,7 @@ using the free community version of Visual Studio 2015 available here:
 Using an instance of the ShoppingCart class, you should be able to:
 * add products to the cart
 * remove products from the cart
+* remove everything from the cart
 * query if the cart is empty
 * query if the cart contains any of a given product
 * query how many of a given product the cart contains

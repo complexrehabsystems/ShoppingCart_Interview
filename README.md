@@ -11,7 +11,7 @@ Using an instance of the ShoppingCart class, you should be able to:
 * query how many of a given product the cart contains
 
 sample usage:
-```
+``` c#
 var apple = new Product() {Name = "apple", Price = 25};
 var banana = new Product() {Name = "banana", Price = 15};
 var pineapple = new Product() {Name = "pineapple", Price = 55};

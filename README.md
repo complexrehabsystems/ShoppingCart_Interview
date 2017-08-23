@@ -1,22 +1,44 @@
 This project implements a simple shopping cart in C#, and can be completed using the free community version of Visual Studio 2015 available here: [https://my.visualstudio.com/Downloads?pid=1881](https://my.visualstudio.com/Downloads?pid=1881) 
 
 Using an instance of the ShoppingCart class, you should be able to:
-* add products to the cart 
+* add products to the cart
 * remove products from the cart
-* ask the cart if it is empty 
-* ask the cart if it contains any of a given products
-* ask the cart how many of any given product it contains
+* query if the cart is empty
+* query if the cart contains any of a given product
+* query how many of a given product the cart contains
 
-These operations are specified in more detail with a set of unit tests explaining how the shopping cart will behave in different situations.
+sample usage:
+```
+var apple = new Product() {Name = "apple", Price = 25},
+var banana = new Product() {Name = "banana", Price = 15},
+var pineapple = new Product() {Name = "pineapple", Price = 55},
 
-To complete this project, you should:
-1. download the source code
-2. verify the solution builds
-3. verify the unit test suite runs
-  * there should be 2 passing tests and 10 skipped tests
-4. view the test file under the Test directory. Many of the tests will be annotated with the Ignore attribute. 
-5. remove the [Ignore] attribute from one test at a time, implementing enough code to make it pass before moving on to the next test.
+var cart = new ShoppingCart();
+cart.IsEmpty(); // returns true
 
-After implementing code to fix all of the unit tests, please:
-1. suggest unit tests that you think should be added
-2. propose a way to modify the cart to support a buy-one-get-one-free discount.
+cart.AddProduct(banana, 3);
+cart.IsEmpty(); // returns false
+cart.contains(banana); // returns true
+cart.contains(apple); // returns false
+cart.Total(); // returns 45
+
+cart.add(pineapple, 1);
+cart.Total(); // returns 100
+
+cart.RemoveProduct(banana, 1);
+cart.Quantity(banana); // returns 2
+cart.RemoveProduct(banana);
+cart.Quantity(banana); // returns 0;
+
+cart.RemoveAll();
+cart.IsEmpty(); // returns true;
+
+```
+
+These operations are specified in a set of unit tests, and the project is complete when all unit tests are passing.
+
+After implementing code to pass all of the provided tests, please:
+1. Suggest unit tests that you think should be added.
+2. Propose a way to add the concept of a Discount to the ShoppingCart 
+* e.g. percentage off cart total, buy one get one free, etc
+* No need to implement Discounts -- this is just to gain insight into your software design thought process.

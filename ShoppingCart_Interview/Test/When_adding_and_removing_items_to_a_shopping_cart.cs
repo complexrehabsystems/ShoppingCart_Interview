@@ -29,7 +29,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void a_new_cart_should_be_empty()
         {
             Assert.True(_cart.IsEmpty());

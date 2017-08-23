@@ -35,7 +35,7 @@ namespace ShoppingCart_Interview
         // Return true if the cart is empty, false otherwise.
         public bool IsEmpty()
         {
-            throw new NotImplementedException();
+            return true;
         }
 
         // Return true if the cart contains any items of type "product", false otherwise.

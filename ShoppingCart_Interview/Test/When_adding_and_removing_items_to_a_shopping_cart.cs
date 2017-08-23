@@ -189,6 +189,7 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
+        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_items_to_the_cart_and_calling_remove_everything__the_cart_should_be_empty()
         {
             _cart.AddProduct(ProductA, 5);

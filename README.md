@@ -12,9 +12,9 @@ Using an instance of the ShoppingCart class, you should be able to:
 
 sample usage:
 ```
-var apple = new Product() {Name = "apple", Price = 25},
-var banana = new Product() {Name = "banana", Price = 15},
-var pineapple = new Product() {Name = "pineapple", Price = 55},
+var apple = new Product() {Name = "apple", Price = 25};
+var banana = new Product() {Name = "banana", Price = 15};
+var pineapple = new Product() {Name = "pineapple", Price = 55};
 
 var cart = new ShoppingCart();
 cart.IsEmpty(); // returns true

@@ -41,7 +41,7 @@ cart.IsEmpty(); // returns true;
 These operations are specified in a set of unit tests, and the project is complete when all unit tests are passing.
 
 After implementing code to pass all of the provided tests, please:
-1. Suggest unit tests that you think should be added.
-2. Propose a way to add the concept of a Discount to the ShoppingCart 
-* e.g. percentage off cart total, buy one get one free, etc
-* No need to implement Discounts -- this is just to gain insight into your software design thought process.
+- A) Suggest unit tests that you think should be added.
+- B) Propose a way to add the generalized concept of a Discount to the ShoppingCart 
+  - e.g. percentage off cart total, buy one get one free, etc
+  - No need to implement Discounts -- this is just to gain insight into your software design thought process.

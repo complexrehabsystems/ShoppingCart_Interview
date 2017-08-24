@@ -3,7 +3,7 @@ This project implements a simple shopping cart in C# 6.0, and can be completed
 using the free community version of Visual Studio 2015 available here: 
 * [https://my.visualstudio.com/Downloads?pid=1881](https://my.visualstudio.com/Downloads?pid=1881) 
 
-*Estimated Time: * 1-2 hours
+**Estimated Time:** 1-2 hours
 
 ## Details
 Using an instance of the ShoppingCart class, you should be able to:
@@ -60,5 +60,5 @@ BONUS: After implementing code to pass the provided tests, you can optionally fo
 * Take time to refactor if you have duplicated logic
 * Optimize for readability/maintainability over performance.
 
-Here is a small example the work required to make one small test pass:
-[https://github.com/daniel-packard/ShoppingCart_Interview/pull/2/files](https://github.com/daniel-packard/ShoppingCart_Interview/pull/2/files)
+Here is a small example of the work required to make one small test pass:
+* [https://github.com/daniel-packard/ShoppingCart_Interview/pull/2/files](https://github.com/daniel-packard/ShoppingCart_Interview/pull/2/files)

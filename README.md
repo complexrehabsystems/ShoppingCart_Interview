@@ -28,21 +28,23 @@ var cart = new ShoppingCart();
 cart.IsEmpty(); // returns true
 
 cart.AddProduct(banana, 3);
-cart.IsEmpty(); // returns false
-cart.contains(banana); // returns true
-cart.contains(apple); // returns false
-cart.Total(); // returns 45
+cart.IsEmpty();               // returns false
+cart.contains(banana);        // returns true
+cart.Quantity(banana);        // returns 3
+cart.contains(apple);         // returns false
+cart.Total();                 // returns 45 (15 * 3)
 
 cart.add(pineapple, 1);
-cart.Total(); // returns 100
+cart.contains(pineapple);     // returns true
+cart.Total();                 // returns 100
 
-cart.RemoveProduct(banana, 1);
-cart.Quantity(banana); // returns 2
-cart.RemoveProduct(banana);
-cart.Quantity(banana); // returns 0;
+cart.RemoveProduct(banana, 1);// removes one banana
+cart.Quantity(banana);        // returns 2
+cart.RemoveProduct(banana);   // removes all bananas
+cart.Quantity(banana);        // returns 0;
 
 cart.RemoveAll();
-cart.IsEmpty(); // returns true;
+cart.IsEmpty();               // returns true;
 
 ```
 

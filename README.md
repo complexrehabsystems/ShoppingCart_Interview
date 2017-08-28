@@ -36,7 +36,7 @@ cart.Total();                 // returns 45 (15 * 3)
 
 cart.add(pineapple, 1);
 cart.contains(pineapple);     // returns true
-cart.Total();                 // returns 100
+cart.Total();                 // returns 100 (15 * 3 + 55)
 
 cart.RemoveProduct(banana, 1);// removes one banana
 cart.Quantity(banana);        // returns 2

@@ -46,7 +46,7 @@ cart.IsEmpty(); // returns true;
 
 ```
 
-These operations are specified in a set of [unit tests](https://github.com/daniel-packard/ShoppingCart_Interview/blob/master/ShoppingCart_Interview/Test/When_adding_and_removing_items_to_a_shopping_cart.cs), and the project is complete when all unit tests are passing.
+These operations are specified in a set of [unit tests](https://github.com/daniel-packard/ShoppingCart_Interview/blob/master/ShoppingCart_Interview/Test/When_adding_and_removing_items_to_a_shopping_cart.cs), and the functions are stubbed out in the [ShoppingCart](https://github.com/daniel-packard/ShoppingCart_Interview/blob/master/ShoppingCart_Interview/ShoppingCart.cs) class. The project is complete when all unit tests are passing.
 
 BONUS: After implementingthe solution, you can optionally follow up by addressing some (or all) of these points:
 - A) Suggest unit tests that you think should be added.

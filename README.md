@@ -5,6 +5,9 @@ using the free community version of Visual Studio 2015 available here:
 
 **Estimated Time:** 1-2 hours
 
+**Note:** No forking or pull requests please!! We don't want your solution to be made public on github. Please download the repo as a zip file, and submit your completed solution to daniel.packard@complexrehabsystems.com
+
+
 ## Details
 Using an instance of the ShoppingCart class, you should be able to:
 * add products to the cart
@@ -13,6 +16,7 @@ Using an instance of the ShoppingCart class, you should be able to:
 * query if the cart is empty
 * query if the cart contains any of a given product
 * query how many of a given product the cart contains
+* query the total value (in $) of the items in the cart
 
 sample usage:
 ``` c#
@@ -42,23 +46,24 @@ cart.IsEmpty(); // returns true;
 
 ```
 
-All cart operations are specified in a set of unit tests, and the project is complete when all unit tests are passing.
+These operations are specified in a set of [unit tests](https://github.com/daniel-packard/ShoppingCart_Interview/blob/master/ShoppingCart_Interview/Test/When_adding_and_removing_items_to_a_shopping_cart.cs), and the project is complete when all unit tests are passing.
 
-BONUS: After implementing code to pass the provided tests, you can optionally follow up by addressing some (or all) of these points:
+BONUS: After implementingthe solution, you can optionally follow up by addressing some (or all) of these points:
 - A) Suggest unit tests that you think should be added.
 - B) Propose a way to add the concept of a Discount to the ShoppingCart 
   - e.g. a percentage discount off the cart total, buy one get one free, etc
   - No need to _implement_ Discounts -- this is just to gain insight into your software design thought process.
 - C) Propose a database schema that would support the operations used here
+  - what if you want to review an old order, but prices have since been updated?
 
 ## Tips and Best Practices
 
-* Use modern C# idioms whereever possible (LINQ, lambda expressions, expression body members, etc)
+* Use modern C# idioms wherever possible (LINQ, lambda expressions, expression body members, etc)
 * Avoid using imperative style (loops, if/else, etc)
 * Avoid nested logic and unnecessary branching
-* When suggesting new tests, especially try to think of edge cases (e.g. what should happen if you try to remove something that is not in the cart?)
-* Take time to refactor if you have duplicated logic
+* When suggesting new tests, especially try to think of edge cases (e.g. what should happen if you try to remove something that is not in the cart? What happens if you try to remove more items than the cart contains?)
+* Please take time to refactor if you have duplicated logic
 * Optimize for readability/maintainability over performance.
 
-Here is a small example of the work required to make one small test pass:
+Here is a small sample of the work required to make one small test pass:
 * [https://github.com/daniel-packard/ShoppingCart_Interview/pull/2/files](https://github.com/daniel-packard/ShoppingCart_Interview/pull/2/files)

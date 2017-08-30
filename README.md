@@ -68,5 +68,5 @@ After implementing the solution, you can optionally follow up by addressing some
 * Please take time to refactor if you have duplicated logic
 * Optimize for readability/maintainability over performance.
 
-Here is a small sample of the work required to make one small test pass:
+Here is a small sample of the work required to make one test pass:
 * [https://github.com/daniel-packard/ShoppingCart_Interview/pull/2/files](https://github.com/daniel-packard/ShoppingCart_Interview/pull/2/files)

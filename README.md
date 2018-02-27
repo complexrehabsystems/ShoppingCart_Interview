@@ -14,10 +14,11 @@ to daniel.packard@complexrehabsystems.com
 
 
 ## Details
-The project is complete when all of the provided unit tests pass. 
+The project is complete when all of the provided 
+[unit tests](https://github.com/complexrehabsystems/ShoppingCart_Interview/blob/master/ShoppingCart_Interview/Test/When_adding_and_removing_items_to_a_shopping_cart.cs)
+pass. 
 
-The [unit tests](https://github.com/daniel-packard/ShoppingCart_Interview/blob/master/ShoppingCart_Interview/Test/When_adding_and_removing_items_to_a_shopping_cart.cs) 
-specifiy the following funcitonality in detail:
+The unit tests specifiy the following funcitonality in detail:
 * add products to the cart
 * remove products from the cart
 * remove everything from the cart
@@ -73,6 +74,3 @@ After implementing the solution, you can optionally follow up by addressing some
   * (e.g. what should happen if you try to remove something that is not in the cart? What happens if you try to remove more items than the cart contains?)
 * Please take time to refactor if you have duplicated logic
 * Optimize for readability/maintainability over performance.
-
-Here is a small sample of the work required to make one test pass:
-* [https://github.com/daniel-packard/ShoppingCart_Interview/pull/2/files](https://github.com/daniel-packard/ShoppingCart_Interview/pull/2/files)

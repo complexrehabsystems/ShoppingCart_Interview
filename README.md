@@ -1,5 +1,5 @@
 ## Overview
-This project implements a simple in-memory shopping cart using modern C#6 or C#7. The project can be completed 
+This project implements a simple shopping cart using modern C#6 or C#7. The project can be completed 
 using the free community version of Visual Studio 2015 available here: 
 * [https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/) 
 

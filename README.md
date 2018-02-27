@@ -1,17 +1,23 @@
 ## Overview
-This project implements a simple in-memory shopping cart in C# 6.0, and can be completed 
+This project implements a simple in-memory shopping cart using modern C#6 or C#7. The project can be completed 
 using the free community version of Visual Studio 2015 available here: 
 * [https://my.visualstudio.com/Downloads?pid=1881](https://my.visualstudio.com/Downloads?pid=1881) 
 
-No need to implement a UI or DB, just implement the ShoppingCart class using an in memory collection such that all the unit tests pass.
+No need to implement a UI or DB, just implement the ShoppingCart class using an in memory collection such that 
+all the unit tests pass.
 
-**Estimated Time:** 1-2 hours
+**Estimated Time:** 1-4 hours
 
-**Note:** No forking or pull requests please!! We don't want your solution to be made public on github. Please download the repo as a zip file, and submit your completed solution to daniel.packard@complexrehabsystems.com
+**Note:** No forking or pull requests please!! We don't want your solution to be made public on 
+github. Please download the repo as a zip file, and submit your completed solution as a zip file 
+to daniel.packard@complexrehabsystems.com
 
 
 ## Details
-Using an instance of the ShoppingCart class, you should be able to:
+The project is complete when all of the provided unit tests pass. 
+
+The [unit tests](https://github.com/daniel-packard/ShoppingCart_Interview/blob/master/ShoppingCart_Interview/Test/When_adding_and_removing_items_to_a_shopping_cart.cs) 
+specifiy the following funcitonality in detail:
 * add products to the cart
 * remove products from the cart
 * remove everything from the cart
@@ -47,10 +53,7 @@ cart.Quantity(banana);        // returns 0;
 
 cart.RemoveAll();
 cart.IsEmpty();               // returns true;
-
 ```
-
-These operations are specified in a set of [unit tests](https://github.com/daniel-packard/ShoppingCart_Interview/blob/master/ShoppingCart_Interview/Test/When_adding_and_removing_items_to_a_shopping_cart.cs), and the functions are stubbed out in the [ShoppingCart](https://github.com/daniel-packard/ShoppingCart_Interview/blob/master/ShoppingCart_Interview/ShoppingCart.cs) class. The project is complete when all unit tests are passing.
 
 ## Bonus questions: 
 After implementing the solution, you can optionally follow up by addressing some (or all) of these points:
@@ -66,7 +69,8 @@ After implementing the solution, you can optionally follow up by addressing some
 * Use modern C# idioms wherever possible (LINQ, lambda expressions, expression body members, etc)
 * Avoid using imperative style (loops, if/else, etc)
 * Avoid nested logic and unnecessary branching
-* When suggesting new tests, especially try to think of edge cases (e.g. what should happen if you try to remove something that is not in the cart? What happens if you try to remove more items than the cart contains?)
+* When suggesting new tests, especially try to think of edge cases 
+  * (e.g. what should happen if you try to remove something that is not in the cart? What happens if you try to remove more items than the cart contains?)
 * Please take time to refactor if you have duplicated logic
 * Optimize for readability/maintainability over performance.
 

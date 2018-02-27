@@ -29,7 +29,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void a_new_cart_should_be_empty()
         {
             Assert.True(_cart.IsEmpty());
@@ -37,7 +36,6 @@ namespace ShoppingCart_Interview.Test
 
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void a_new_cart_total_should_be_zero()
         {
             var expectedTotal = 0;
@@ -45,7 +43,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_one_product_A__the_cart_should_not_be_empty()
         {
             _cart.AddProduct(ProductA, 1);
@@ -54,7 +51,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_one_product_A__the_cart_should_contain_product_A()
         {
             _cart.AddProduct(ProductA, 1);
@@ -63,7 +59,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_one_product_A__the_cart_should_contain_one_product_A()
         {
             _cart.AddProduct(ProductA, 1);
@@ -73,7 +68,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_product_A_with_no_quantity_specified__the_cart_should_contain_one_product_A()
         {
             _cart.AddProduct(ProductA);
@@ -83,7 +77,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_one_product_A__the_cart_should_not_contain_product_B()
         {
             _cart.AddProduct(ProductA, 1);
@@ -92,7 +85,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_two_product_A__the_cart_should_contain_two_product_A()
         {
             _cart.AddProduct(ProductA, 2);
@@ -102,7 +94,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_one_product_A_and_then_two_product_A__the_cart_should_contain_three_product_A()
         {
             _cart.AddProduct(ProductA, 1);
@@ -113,7 +104,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_and_removing_one_product_A__the_cart_should_NOT_contain_any_product_A()
         {
             _cart.AddProduct(ProductA, 1);
@@ -123,7 +113,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_one_product_A__the_cart_total_should_be_correct()
         {
             _cart.AddProduct(ProductA, 1);
@@ -133,7 +122,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_two_product_A__the_cart_total_should_be_correct()
         {
             _cart.AddProduct(ProductA, 2);
@@ -143,7 +131,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_one_product_A_and_two_product_b__the_cart_total_should_be_correct()
         {
             _cart.AddProduct(ProductA, 1);
@@ -154,7 +141,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_one_product_A_and_two_product_b__and_then_removing_one_product_A__the_cart_should_contain_two_product_B()
         {
             _cart.AddProduct(ProductA, 1);
@@ -167,7 +153,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_one_product_A_two_product_B_and_three_product_C__the_cart_total_should_be_correct()
         {
             _cart.AddProduct(ProductA, 1);
@@ -179,7 +164,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void calling_remove_product_with_no_quantity_should_remove_all_of_the_given_product_from_the_cart()
         {
             _cart.AddProduct(ProductA, 5);
@@ -189,7 +173,6 @@ namespace ShoppingCart_Interview.Test
         }
 
         [Test]
-        [Ignore("Remove one Ignore attribute at a time")]
         public void after_adding_items_to_the_cart_and_calling_remove_everything__the_cart_should_be_empty()
         {
             _cart.AddProduct(ProductA, 5);

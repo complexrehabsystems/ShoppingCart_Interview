@@ -1,10 +1,10 @@
 ## Overview
 This project implements a simple in-memory shopping cart using modern C#6 or C#7. The project can be completed 
 using the free community version of Visual Studio 2015 available here: 
-* [https://my.visualstudio.com/Downloads?pid=1881](https://my.visualstudio.com/Downloads?pid=1881) 
+* [https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/) 
 
-No need to implement a UI or DB, just implement the ShoppingCart class using an in memory collection such that 
-all the unit tests pass.
+Implement the ShoppingCart class using an in memory collection of Products such that 
+all the unit tests pass. There is no need to implement a DB schema, or command line interface, etc.
 
 **Estimated Time:** 1-4 hours
 

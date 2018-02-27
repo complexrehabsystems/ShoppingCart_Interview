@@ -1,6 +1,6 @@
 ## Overview
 This project implements a simple shopping cart using modern C#6 or C#7. The project can be completed 
-using the free community version of Visual Studio 2015 available here: 
+using the free community version of Visual Studio available here: 
 * [https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/) 
 
 Implement the ShoppingCart class using an in-memory collection (e.g. `IEnumerable<Product>`) such that all the unit tests pass. 

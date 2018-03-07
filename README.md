@@ -3,8 +3,11 @@ This project implements a simple shopping cart using modern C#6 or C#7. The proj
 using the free community version of Visual Studio available here: 
 * [https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/) 
 
-Implement the ShoppingCart class using an in-memory collection (e.g. `IEnumerable<Product>`) such that all the unit tests pass. 
-There is no need to implement a DB schema, or command line interface, graphical interface, etc.
+The goal is to implement the ShoppingCart class using an in-memory collection of Products (e.g. `IEnumerable<Product>`) such 
+that all of the provided unit tests pass. There is no need to implement a DB schema, command line 
+interface, graphical interface etc.
+
+Feel free to introduce abstractions/classes where you think they will be useful in implementing the ShoppingCart class.
 
 **Estimated Time:** 1-4 hours
 
@@ -14,6 +17,8 @@ to daniel.packard@complexrehabsystems.com
 
 
 ## Details
+Download this repository, and open `ShoppingCart_Interview.sln` in visual studio. You should be able to build the solution, and run all of the unit tests. Initially, every units test will fail. 
+
 The project is complete when all of the provided 
 [unit tests](https://github.com/complexrehabsystems/ShoppingCart_Interview/blob/master/ShoppingCart_Interview/Test/When_adding_and_removing_items_to_a_shopping_cart.cs)
 pass. 

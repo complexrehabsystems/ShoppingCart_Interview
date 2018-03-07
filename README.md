@@ -17,10 +17,9 @@ to daniel.packard@complexrehabsystems.com
 
 
 ## Details
-Download this repository, and open `ShoppingCart_Interview.sln` in visual studio. You should be able to build the solution, and run all of the unit tests. Initially, every units test will fail. 
+Download this repository, and open `ShoppingCart_Interview.sln` in visual studio. You should be able to build the solution, and run all of the unit tests. Initially, every unit test will fail. 
 
-The project is complete when all of the provided 
-[unit tests](https://github.com/complexrehabsystems/ShoppingCart_Interview/blob/master/ShoppingCart_Interview/Test/When_adding_and_removing_items_to_a_shopping_cart.cs)
+The project is complete when all of the [unit tests](https://github.com/complexrehabsystems/ShoppingCart_Interview/blob/master/ShoppingCart_Interview/Test/When_adding_and_removing_items_to_a_shopping_cart.cs)
 pass. 
 
 The unit tests specifiy the following funcitonality in detail:

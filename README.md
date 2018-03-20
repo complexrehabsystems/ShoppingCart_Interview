@@ -9,7 +9,7 @@ interface, graphical interface etc.
 
 Feel free to introduce abstractions/classes where you think they will be useful in implementing the ShoppingCart class.
 
-**Estimated Time:** 1-4 hours
+**Estimated time:** 1-4 hours, but there is no hard time limit
 
 **Note:** No forking or pull requests please!! We don't want your solution to be made public on 
 github. Please download the repo as a zip file, and submit your completed solution as a zip file 
@@ -60,8 +60,7 @@ cart.RemoveAll();
 cart.IsEmpty();               // returns true;
 ```
 
-## Bonus questions: 
-After implementing the solution, you can optionally follow up by addressing some (or all) of these points:
+## Senior developers, please address at least two of the following (no code required, just discuss): 
 - A) Are there any ways you would suggest changing the specification?
 - B) Suggest unit tests that you think should be added.
 - C) Propose a way to add the concept of a Discount to the ShoppingCart 

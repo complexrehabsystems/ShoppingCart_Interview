@@ -1,15 +1,15 @@
 ## Overview
-This project implements a ShoppingCart class using modern C#6 or C#7. The project can be completed 
+This project implements a ShoppingCart class using modern C# 6, 7, or 8. The project can be completed 
 using the free community version of Visual Studio available here: 
 * [https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/) 
 
 The goal is to implement the ShoppingCart class using an in-memory collection of Products (e.g. `IEnumerable<Product>`) such 
-that all of the provided unit tests pass. There is no need to implement a DB schema, command line 
+that **all of the provided unit tests pass**. There is no need to implement a DB schema, command line 
 interface, graphical interface etc.
 
 Feel free to introduce abstractions/classes where you think they will be useful in implementing the ShoppingCart class.
 
-**Estimated time:** 1-4 hours, but there is no hard time limit
+**Estimated time:** 1-3 hours, but there is no hard time limit
 
 **Note:** No forking or pull requests please!! We don't want your solution to be made public on 
 github. Please download the repo as a zip file, and submit your completed solution as a zip file 
@@ -22,7 +22,7 @@ Download this repository, and open `ShoppingCart_Interview.sln` in visual studio
 The project is complete when all of the [unit tests](https://github.com/complexrehabsystems/ShoppingCart_Interview/blob/master/ShoppingCart_Interview/Test/When_adding_and_removing_items_to_a_shopping_cart.cs)
 pass. 
 
-The unit tests specifiy the following funcitonality in detail:
+The unit tests specify the following funcitonality in detail:
 * add products to the cart
 * remove products from the cart
 * remove everything from the cart
@@ -32,6 +32,7 @@ The unit tests specifiy the following funcitonality in detail:
 * query the total value (in $) of the items in the cart
 
 sample usage:
+
 ``` c#
 var apple = new Product() {Name = "apple", Price = 25};
 var banana = new Product() {Name = "banana", Price = 15};
@@ -61,7 +62,7 @@ cart.IsEmpty();               // returns true;
 ```
 
 ## Senior developers, please address at least two of the following (no code required, just discuss): 
-- A) Are there any ways you would suggest changing the specification?
+- A) Are there any ways you would suggest changing the specification/tests?
 - B) Suggest unit tests that you think should be added.
 - C) Propose a way to add the concept of a Discount to the ShoppingCart 
   - e.g. a percentage discount off the cart total, buy one get one free, etc

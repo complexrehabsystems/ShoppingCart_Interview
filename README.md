@@ -3,7 +3,7 @@ This project implements a ShoppingCart class using modern C# 6, 7, or 8. The pro
 using the free community version of Visual Studio available here: 
 * [https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/) 
 
-The goal is to implement the ShoppingCart class using an in-memory collection of Products (e.g. `IEnumerable<Product>`) such 
+The goal is to implement the ShoppingCart class using an in-memory collection of Products (e.g. `List<Product>`) such 
 that **all of the provided unit tests pass**. There is no need to implement a DB schema, command line 
 interface, graphical interface etc.
 

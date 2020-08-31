@@ -11,7 +11,7 @@ Feel free to introduce abstractions/classes where you think they will be useful 
 
 **Note:** No forking or pull requests please!! We don't want your solution to be made public on 
 github. Please download the repo as a zip file, and submit your completed solution as a zip file 
-to daniel.packard@complexrehabsystems.com
+to dpackard@kimobility.com
 
 
 ## Details

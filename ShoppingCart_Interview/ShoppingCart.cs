@@ -5,6 +5,11 @@ namespace ShoppingCart_Interview
 {
     public class ShoppingCart
     {
+        
+        // TODO: add a private class member variable to store the collection of products
+        // e.g. 
+        // private IList<Product> _products {get;set;}
+        
         // Add the specified quantity of 'product' to the cart.
         // If no quantity is specified, one 'product' should be added.
         public void AddProduct(Product product, int quantity = 1)

@@ -60,12 +60,11 @@ cart.IsEmpty();               // returns true;
 ```
 
 ## Senior developers, please address at least two of the following (no code required, just discuss): 
-- A) Are there any ways you would suggest changing the specification/tests?
-- B) Suggest unit tests that you think should be added.
-- C) Propose a way to add the concept of a Discount to the ShoppingCart 
+- A) Are there any ways you would suggest changing the specification/tests (e.g. tests that should be added/changed)?
+- B) Propose a way to add the concept of a Discount to the ShoppingCart 
   - e.g. a percentage discount off the cart total, buy one get one free, etc
   - No need to _implement_ Discounts -- this is just to gain insight into your software design thought process.
-- D) Propose a database schema that would support the operations used here
+- C) Propose a database schema that would support the operations used here
   - what if you want to review an old order, but prices have been updated?
 
 ## Tips and Best Practices

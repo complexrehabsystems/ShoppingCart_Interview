@@ -1,5 +1,5 @@
 ## Overview
-This project implements a ShoppingCart class using modern C# 6, 7, or 8. The project can be completed 
+This project implements a ShoppingCart class using modern C#. The project can be completed 
 using the free community version of Visual Studio available here: 
 * [https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/) 
 

@@ -3,6 +3,8 @@ This project implements a ShoppingCart class using modern C#. The project can be
 using the free community version of Visual Studio available here: 
 * [https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/) 
 
+Please submit your solution as a zip archive using the Servu FTP link provided in the email accompanying this exercise.
+
 The goal is to implement the ShoppingCart class using an in-memory collection of Products (this collection can be your choice, e.g. `List<Product>`, `Dictionary<Product, int>`, etc). When your solution is implemented, **all of the provided unit tests should pass**. There is no need to implement a DB schema, command line interface, graphical interface etc.
 
 Feel free to introduce abstractions/classes where you think they will be useful in implementing the ShoppingCart class.
@@ -11,7 +13,7 @@ Feel free to introduce abstractions/classes where you think they will be useful 
 
 **Note:** No forking or pull requests please!! We don't want your solution to be made public on 
 github. Please download the repo as a zip file, and submit your completed solution as a zip file 
-to dpackard@kimobility.com
+via the servu FTP link provided via email.
 
 
 ## Details
